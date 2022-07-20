@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "bin": {
-    "load-file": "bin/loadFile.js"
+    "load-banned-site": "bin/loadData.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

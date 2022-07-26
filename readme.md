@@ -1,6 +1,9 @@
 ### Ruzapret парсер
 Утилита парсит открытыю информацию о заблокированных сайтах и сохраняет в файл
 
+### Пререквизиты
+nodejs >= 14
+
 ### Установка
 ```bash
 git clone git@github.com:1g0rbm/ruzapret-parser.git
@@ -11,5 +14,5 @@ npm link
 
 ### Использование
 ```bash
-load-file /path/to/dir
+load-banned-site /path/to/dir
 ```

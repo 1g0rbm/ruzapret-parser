@@ -1,7 +1,7 @@
 {
   "name": "ruzapret-parser",
   "version": "1.0.0",
-  "description": "Parse ruzapret data and save it to file.",
+  "description": "Parse ruzapret data and save it to a file.",
   "main": "index.js",
   "type": "module",
   "bin": {

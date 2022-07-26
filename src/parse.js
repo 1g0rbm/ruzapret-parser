@@ -4,7 +4,6 @@ import RecordNode from './RecordNode.js';
 const parse = (data) => {
   const $ = cheerio.load(data)
 
-  const list = []
   const trs = $('table tr').toArray()
   for (let i = 1; i < trs.length; i += 1) {
     list.push(new RecordNode(
